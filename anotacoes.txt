@@ -1,0 +1,22 @@
+https://iconarchive.com/search?q=python = iconarchive
+
+gimp = desenho
+
+favicon.cc = criar icon
+
+favicon.io = passando imagem para icon
+
+https://emojipedia.org/ = emojis
+
+site de paleta de cores = paletton.com ,coolors.co ,color.adobe.com
+
+mockflow.com = site para criar um site (modelagem de site)
+
+Adobe Color = paleta de cores
+
+	=FONTS==============================================================
+		{google fonts, dafont.com = fonts (dafont: tem mais fontes)
+
+	github.guanabara = exercicios, desafios, módulos e guardar arquivos
+
+	whatfontis = achar fonte por imagem}
