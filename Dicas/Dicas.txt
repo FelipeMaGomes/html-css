@@ -1,0 +1,49 @@
+TABELAS 
+
+        HIERARQUIA DE TABELAS (simples)
+        TABLE = tabela
+            TABLE ROW = linha de tabela
+                TABLE HEADER = cabeçalho de tabela
+                TABLE DATA = dado de tabela
+
+            text-align: center; /* Alinhamento horizontal */
+            vertical-align: middle; /* Alinhamento vertical  */
+
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+
+
+DEIXAR A TELA PRESA
+
+A tela fica presa quando arrastar para baixo
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+
+-------------------------------------//------------------------------//-----------------------------//----
+
+SEQUENCIA DE CORES
+
+tbody > tr:nth-child(odd) { /* 2n-1 */
+    background-color: white;
+}
+tbody > tr:nth-child(even) { /* 2n */
+    background-color: lightgray;
+}
+
+sequencia de cores: even(par)
+                    odd(impar)
+
+-------------------------------------//------------------------------//-----------------------------//----
+
