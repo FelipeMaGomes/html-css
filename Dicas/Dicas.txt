@@ -45,5 +45,37 @@ tbody > tr:nth-child(even) { /* 2n */
 sequencia de cores: even(par)
                     odd(impar)
 
--------------------------------------//------------------------------//-----------------------------//----
+-------------------------------------//------------------------------//------------//----
 
+COL GROUP
+
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade" span="2"> //o span empurra e adiciona a cor escolhida
+            <col class="cprof">
+        </colgroup>
+
+ -------------------------------------//------------------------------//------------//---
+
+OVERFLOW- X/Y
+
+        div#container {
+            overflow-x: ; opções scroll / hidden / auto
+        } 
+
+        colocando uma tabela dentro de uma div
+        <div>
+            <table>
+            </table>
+        </div>
+
+-------------------------------------//------------------------------//------------//----
+
+VIEW HIGHT / VIEW WEIGHT
+
+    <style>
+        div#container {
+            weight: 50vw;
+            overflow-x: auto;
+        } 
