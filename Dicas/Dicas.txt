@@ -79,3 +79,9 @@ VIEW HIGHT / VIEW WEIGHT
             weight: 50vw;
             overflow-x: auto;
         } 
+
+-------------------------------------//------------------------------//------------//----
+
+ IFRAME
+
+ Certos sites não são disponiveis no iframe
