@@ -45,7 +45,7 @@ tbody > tr:nth-child(even) { /* 2n */
 sequencia de cores: even(par)
                     odd(impar)
 
--------------------------------------//------------------------------//------------//----
+--------------------------------------//------------------------------//------------//--------------------
 
 COL GROUP
 
@@ -56,7 +56,7 @@ COL GROUP
             <col class="cprof">
         </colgroup>
 
- -------------------------------------//------------------------------//------------//---
+ -------------------------------------//------------------------------//------------//--------------------
 
 OVERFLOW- X/Y
 
@@ -70,7 +70,7 @@ OVERFLOW- X/Y
             </table>
         </div>
 
--------------------------------------//------------------------------//------------//----
+-------------------------------------//------------------------------//------------//---------------------
 
 VIEW HIGHT / VIEW WEIGHT
 
@@ -80,8 +80,19 @@ VIEW HIGHT / VIEW WEIGHT
             overflow-x: auto;
         } 
 
--------------------------------------//------------------------------//------------//----
+-------------------------------------//------------------------------//------------//---------------------
 
  IFRAME
 
  Certos sites não são disponiveis no iframe
+
+ !!!- TAMANHO PADRÃO 300x150 -!!!
+Ex:
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500">
+
+scolling="(auto)=se o conteudo exceder o tamanho do frame vai criar a barra de rolagem"
+"(yes)=mesmo que o conteudo tivesse cabendo apareceria a barra de rolagem"
+"(no)=mesmo que o conteudo seja maior ele ira tirar a barra de rolagem" 
+!depende do navegador, alguns funcionam e outros não!
+
+frameborder sempre será 0 e 1
