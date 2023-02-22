@@ -96,3 +96,23 @@ scolling="(auto)=se o conteudo exceder o tamanho do frame vai criar a barra de r
 !depende do navegador, alguns funcionam e outros não!
 
 frameborder sempre será 0 e 1
+    EX:
+        iframe {
+            width: 300px;
+            display: block;
+            margin: auto;
+        }
+
+    <iframe src="paginas-extras/pag001.html" frameborder="0" height="500" width="500">
+        <p>Infelizmente seu  navegador não é compativel com isso!</p>
+    </iframe>
+
+    quando a pessoa ter uma opção, vem o target no lugar onde se escolhe pelo nome:
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+-------------------------------------//------------------------------//------------//---------------------
+
