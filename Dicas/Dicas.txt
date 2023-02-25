@@ -114,5 +114,21 @@ frameborder sempre será 0 e 1
         <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
         <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
     </ul>
+
+    sandbox="sandbox" refferpolicy="no-referrer"
+    proteção do seu iframe
 -------------------------------------//------------------------------//------------//---------------------
 
+   EXEMPLO DE FORMULÁRIO
+
+    <form action="cadastro.php" method="get">
+        <p>
+            Nome:
+            <input type="text" name="nome" id="nome">
+            <input type="submit" value="Cadastrar">
+
+        </p>
+    </form>
+                   ____________________   _________
+    rodando= Nome:| Felipe             | |Cadastrar|
+ 
