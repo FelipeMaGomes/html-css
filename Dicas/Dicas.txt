@@ -31,7 +31,7 @@ A tela fica presa quando arrastar para baixo
         }
 
 
-----------------//--------------------------//--------------------------//---------------
+----------------//--------------------------//--------------------------//--------------------------------
 
 SEQUENCIA DE CORES
 
@@ -45,7 +45,7 @@ tbody > tr:nth-child(even) { /* 2n */
 sequencia de cores: even(par)
                     odd(impar)
 
-----------------//--------------------------//--------------------------//---------------
+----------------//--------------------------//--------------------------//--------------------------------
 
 COL GROUP
 
@@ -56,7 +56,7 @@ COL GROUP
             <col class="cprof">
         </colgroup>
 
-----------------//--------------------------//--------------------------//---------------
+----------------//--------------------------//--------------------------//--------------------------------
 
 OVERFLOW- X/Y
 
@@ -70,7 +70,7 @@ OVERFLOW- X/Y
             </table>
         </div>
 
-----------------//--------------------------//--------------------------//---------------
+----------------//--------------------------//--------------------------//--------------------------------
 
 VIEW HIGHT / VIEW WEIGHT
 
@@ -80,7 +80,7 @@ VIEW HIGHT / VIEW WEIGHT
             overflow-x: auto;
         } 
 
-----------------//--------------------------//--------------------------//---------------
+----------------//--------------------------//--------------------------//--------------------------------
 
  IFRAME
 
@@ -118,7 +118,7 @@ frameborder sempre será 0 e 1
     sandbox="sandbox" refferpolicy="no-referrer"
     proteção do seu iframe
 
-----------------//--------------------------//--------------------------//---------------
+----------------//--------------------------//--------------------------//--------------------------------
 
    EXEMPLO DE FORMULÁRIO
 
@@ -133,7 +133,7 @@ frameborder sempre será 0 e 1
                    ____________________   _________
     rodando= Nome:| Felipe             | |Cadastrar|
 
-----------------//--------------------------//--------------------------//---------------
+----------------//--------------------------//--------------------------//--------------------------------
 
     IFRAMES JÁ PROGRAMADOS DE PLATAFORMAS EXTERNAS
 
@@ -152,3 +152,21 @@ frameborder sempre será 0 e 1
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ50lb6syszCXYFRWHo9MdWOb57p1UfWjeXVxeiNs4ayv3GwxuYmWNCu84bV9DRMpdMnfr9t9xkCXe_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
     com tamanho regulavel e com partes que podem ser mudáveis no código
+
+----------------//--------------------------//--------------------------//--------------------------------
+
+    FORMULÁRIO
+
+    <form>
+        <p>Nome: <input type="text" name="nome" id="nome"></p>
+        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+    uma caixa de pergunta, assinalavel e mostravel as palavras citadas recentemente
+
+----------------//--------------------------//--------------------------//--------------------------------
+
+    LABEL
+
+    <label for="inome">Nome:</label> clicando até mesmo na palavra "Nome" para acessar a aba de reposta
