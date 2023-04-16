@@ -165,7 +165,56 @@ frameborder sempre será 0 e 1
 
     uma caixa de pergunta, assinalavel e mostravel as palavras citadas recentemente
 
+----------------------------------------------------------------------------------------------------------
+
+    <label for="iusu">Usuário: </label>
+    <input type="text" name="usu" id="iusu">
+
+    caixa de pergunta simples
+
+----------------------------------------------------------------------------------------------------------
+
+    <label for="isen">Senha: </label>
+    <input type="password" name="sen" id="isen">           
+    
+    !oculta a senha! 
+
+----------------------------------------------------------------------------------------------------------
+
+    <input type="submit" value="Enviar">      
+
+    mostra uma caixa escrita "Enviar" função = abrir uma outra pagina
+
+----------------------------------------------------------------------------------------------------------
+
+    <input type="reset" value="Limpar">        
+    
+    mostra um caixa escrita "Limpar" ele oculta oque você escreveu na caixa de "Nome" e "Sobrenome"
+
+----------------------------------------------------------------------------------------------------------
+
+    <label for="iusu">Usuário: </label>
+    <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="10" placeholder="nome do usuário" autocomplete="username">
+
+    (required) = avisa que necescita de complemento
+
+    (minlength) = o valor mínimo nescessário
+
+    (maxlength) = o valor máximo nescessário
+
+    (size) = o tamanho da caixa
+
+    (placeholder) = uma frase escrita dentro da caixa em cinza falando o que você escreveu na caixa
+
+    AUTOCOMPLETE = "ON"
+
+        (autocomplete:"username") = sabera que oque voce colocará sera um username
+
+        (autocomplete:"current-password") = sabera que oque voce colocará sera uma senha
+
 ----------------//--------------------------//--------------------------//--------------------------------
+
+    IMPORTANTE!!!
 
     LABEL
 
