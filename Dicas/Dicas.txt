@@ -212,6 +212,35 @@ frameborder sempre será 0 e 1
 
         (autocomplete:"current-password") = sabera que oque voce colocará sera uma senha
 
+----------------------------------------------------------------------------------------------------------
+
+    <label for="imedia">Média: </label>
+    <input type="number" name="media" id="imedia" required min="0" max="10" placeholder="0 a 10" step="0.1" value="5"
+
+    coloca uma base para voce colocar um valor em número de 0 a 10
+
+----------------------------------------------------------------------------------------------------------
+
+    <label for="imes">Período Letivo: </label>
+    <input type="month" name="mes" id="imes" value="2023-04">
+
+    coloca o mês e o ano
+
+----------------------------------------------------------------------------------------------------------
+
+    <label for="idia">Dia da Prova: </label>
+    <input type="date" name="dia" id="idia" value="2023-04-16">
+
+    colocar o dia (data)
+
+----------------------------------------------------------------------------------------------------------
+
+    <label for="ihora">Horário da Prova</label>
+    <input type="time" name="hora" id="ihora">
+
+    coloca a hora, o horário que você deseja
+
+----------------//--------------------------//--------------------------//--------------------------------
 ----------------//--------------------------//--------------------------//--------------------------------
 
     IMPORTANTE!!!
