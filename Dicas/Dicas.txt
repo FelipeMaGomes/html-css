@@ -248,3 +248,18 @@ frameborder sempre será 0 e 1
     LABEL
 
     <label for="inome">Nome:</label> clicando até mesmo na palavra "Nome" para acessar a aba de reposta
+
+
+----------------//--------------------------//--------------------------//--------------------------------
+
+    PHP 
+
+    <input type="tel" name="tel" id="itel" autocomplete="tel"{--pattern="^[0-9]{4}-[0-9]{4}$"--} required>
+
+    patern, pode ser represntado aquantidade tanto por "\d" quanto "[0-9]" , "{4}" a quantidade de casas
+
+    (\d{2}\) - usado como DDD, (tanto "[0-9]" quanto "\d" )
+
+            <fieldset> - criar um bloco engoblando uma parte(igual iframe)
+
+            <legend> - colocar uma legenda nesse bloco
