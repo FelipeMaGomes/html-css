@@ -263,3 +263,42 @@ frameborder sempre será 0 e 1
             <fieldset> - criar um bloco engoblando uma parte(igual iframe)
 
             <legend> - colocar uma legenda nesse bloco
+
+--------------------//-----------------------------//------------------------------//---------------------
+
+    FIELDSET
+
+    <input type="radio" name="sexo" id="isxmas"> <label for="isxmas">Masculino</label> <br>
+
+    input:radio, usado como selecionador para escolher uma única opção e TEM Q CONTER O MESMO NAME
+
+-----------------------------------------------------------------------------------------
+
+    <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
+
+    input:checkbox, usado para fazer acetativas como escolher opções
+
+-----------------------------------------------------------------------------------------
+
+    CHECKED é usado para quando entrar no site(por exemplo) uma das opções ja esteja selecionada
+
+-----------------------------------------------------------------------------------------
+    
+    <label for="ifoto">Foto do perfil: </label>
+    <input type="file" name="foto" id="ifoto">
+
+    no tipo file o method tem que ser igual a "method=post", para enviar o conteudo selecionado
+
+-----------------------------------------------------------------------------------------  
+
+    <label for="inivel">Nível de Satisfação: </label>
+    <input type="range" name="nivel" id="inivel" min="1" max="10" value="1">
+
+    usado como um regulador para direcionar os valores respectivos que o usuário deseja
+
+-----------------------------------------------------------------------------------------
+
+    <label for="icor">Cor: </label>
+    <input type="color" name="cor" id="icor">
+
+    usado como tabela de cores para selecionar cores
