@@ -302,3 +302,9 @@ frameborder sempre será 0 e 1
     <input type="color" name="cor" id="icor">
 
     usado como tabela de cores para selecionar cores
+
+----------------------------------------------------------------------------------------------------------
+
+                    !!!!!!! DUVIDAS DE PERGUNTAS OU ABAS CONSULTAR O EXERCÍCIO 25 !!!!!!!!
+
+----------------------------------------------------------------------------------------------------------
